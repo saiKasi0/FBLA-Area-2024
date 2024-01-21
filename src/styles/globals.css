@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-    @apply bg-slate-50 text-slate-900 font-arial
+    @apply bg-white text-black font-arial
 }

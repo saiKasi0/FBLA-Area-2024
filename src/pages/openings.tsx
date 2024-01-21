@@ -16,7 +16,8 @@ export default function Home() {
         <div className="container flex flex-col gap-12 px-4 py-16 ">
           {/* TODO */}
           <p>
-          this is where we will have an about us page that discusses the company and the open job offerings
+            A page including at least three different job openings at the company
+            prolly a pretty slide show type thing
           </p>
           
         </div>

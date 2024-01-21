@@ -1,6 +1,8 @@
 {
     "cSpell.words": [
+        "Saitech",
         "Saivest",
         "TRPC"
-    ]
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib"
 }

@@ -1,28 +1,48 @@
-# Create T3 App
+# Apply Saivest - Application Page README
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Welcome to Apply Saivest, the application portal for Saivest, a leading financial technology company. This README provides essential information for candidates interested in applying for positions at Saivest.
 
-## What's next? How do I make an app with this?
+## Table of Contents
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+1. [Getting Started](#getting-started)
+2. [Application Process](#application-process)
+3. [Position Listings](#position-listings)
+4. [Application Submission](#application-submission)
+5. [Contact Information](#contact-information)
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Getting Started
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+To get started with the application process, please visit the [Apply Saivest](https://www.saivest.com/careers) website. Here, you will find detailed information about our company culture, values, and the exciting opportunities we offer.
 
-## Learn More
+## Application Process
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+Our application process is designed to identify talented individuals who align with Saivest's mission and values. Follow these general steps to complete the application:
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+1. **Explore Open Positions:** Review our [Position Listings](#position-listings) to find roles that match your skills and career goals.
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+2. **Create an Account:** To apply, you'll need to create an account on our application portal. This account will allow you to track the status of your application.
 
-## How do I deploy this?
+3. **Complete Application Form:** Fill out the online application form, providing accurate and detailed information about your education, work experience, and skills.
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+4. **Upload Resume and Cover Letter:** Attach your resume and a cover letter highlighting your achievements and why you are an ideal candidate for the position.
+
+5. **Submit Application:** Once you have reviewed your information, click the "Submit" button to send your application to Saivest.
+
+## Position Listings
+
+Explore our diverse range of job opportunities listed on our [careers page](https://www.saivest.com/careers). Each position includes a detailed job description, qualifications, and application instructions.
+
+## Application Submission
+
+Please ensure that your application is complete before submission. Incomplete applications may not be considered. If you encounter any technical issues during the application process, contact our [Support Team](#contact-information) for assistance.
+
+## Contact Information
+
+For questions related to the application process, technical issues, or general inquiries, feel free to reach out to our Support Team:
+
+- **Email:** support@saivest.com
+- **Phone:** [Provide a phone number]
+
+Thank you for considering a career at Saivest. We look forward to reviewing your application and potentially welcoming you to our team!
+
+*Saivest - Shaping the Future of Financial Technology.*

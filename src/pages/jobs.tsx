@@ -34,7 +34,6 @@ export default function Jobs() {
                         <li className="mb-1">Analyze user requirements and translate them into technical specifications.</li>
                         <li className="mb-1">Troubleshoot, debug, and resolve software defects and issues.</li>
                         <li className="mb-1">Stay updated on emerging technologies and trends in the financial technology industry.</li>
-                        <li  className="mb-1">Contribute to the design and architecture of scalable and reliable software systems.</li>
                     </ul>
                     <h2 className="font-semibold mb-1">Qualifications:</h2>
                     <ul className="list-disc list-inside">
@@ -91,6 +90,7 @@ export default function Jobs() {
               </div>
             </div>
           </li>
+          {/* Data Scientist HTML and CSS */}
           <li>
             <div className="flex h-screen items-center justify-center">
               <div className="flex w-11/12 justify-evenly">

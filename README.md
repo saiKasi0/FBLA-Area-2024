@@ -8,7 +8,6 @@ Welcome to Apply Saivest, the application portal for Saivest, a leading financia
 2. [Application Process](#application-process)
 3. [Position Listings](#position-listings)
 4. [Application Submission](#application-submission)
-5. [Contact Information](#contact-information)
 
 ## Getting Started
 
@@ -36,13 +35,5 @@ Explore our diverse range of job opportunities listed on our [careers page](http
 
 Please ensure that your application is complete before submission. Incomplete applications may not be considered. If you encounter any technical issues during the application process, contact our [Support Team](#contact-information) for assistance.
 
-## Contact Information
-
-For questions related to the application process, technical issues, or general inquiries, feel free to reach out to our Support Team:
-
-- **Email:** support@saivest.com
-- **Phone:** [Provide a phone number]
-
-Thank you for considering a career at Saivest. We look forward to reviewing your application and potentially welcoming you to our team!
 
 *Saivest - Shaping the Future of Financial Technology.*

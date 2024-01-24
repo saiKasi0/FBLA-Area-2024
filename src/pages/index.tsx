@@ -20,26 +20,26 @@ export default function Home() {
               </h1>
           </div>
         </div>
-        <div className="flex bg-white w-screen items-center p-5">
+        <div className="flex bg-white w-screen items-center p-6">
           <div>
             <Image className="border-black border-4"
             src="/office_photo.png" alt="alt" width={2000} height={56} />
-            <body className="px-10">
-              <h1 className="flex justify-center text-5xl py-6">About Saitech</h1>
+            <div className="px-10">
+              <h1 className="flex justify-center text-5xl py-3">Why Saitech?</h1>
 
-              <p className="py-3">      Welcome to Saitech, a visionary leader in the fintech landscape, where the fusion of innovation and finance is transforming the way we envision the future. Rooted in a commitment to revolutionize the financial industry, Saitech is not merely a company; it's a dynamic force shaping the trajectory of finance through cutting-edge technology.</p>
+              <p className="mb-3">      Welcome to Saitech, a visionary leader in the fintech landscape, where the fusion of innovation and finance is transforming the way we envision the future. Rooted in a commitment to revolutionize the financial industry, Saitech is not merely a company; it's a dynamic force shaping the trajectory of finance through cutting-edge technology.</p>
 
-              <p className="py-3">      Our journey commenced with a fervent belief in the potential of technology to bring about positive change. Saitech stands as a testament to our commitment to making finance more accessible, efficient, and personalized for both individuals and businesses. We operate on the belief that financial solutions should not just meet the current market demands but anticipate and redefine the future.</p>
+              <p className="mb-3">      Our journey commenced with a fervent belief in the potential of technology to bring about positive change. Saitech stands as a testament to our commitment to making finance more accessible, efficient, and personalized for both individuals and businesses. We operate on the belief that financial solutions should not just meet the current market demands but anticipate and redefine the future.</p>
 
-              <p className="py-3">      Technological excellence forms the backbone of Saitech's identity. Our team is a synergy of highly skilled engineers, developers, and tech enthusiasts who are not just coding lines but architecting the future of finance. From artificial intelligence, machine learning, blockchain to data analytics, we leverage the latest advancements to craft solutions that surpass industry standards. Saitech is not merely keeping up with the pace of innovation; we are setting the pace.</p>
+              <p className="mb-3">      Technological excellence forms the backbone of Saitech's identity. Our team is a synergy of highly skilled engineers, developers, and tech enthusiasts who are not just coding lines but architecting the future of finance. From artificial intelligence, machine learning, blockchain to data analytics, we leverage the latest advancements to craft solutions that surpass industry standards. Saitech is not merely keeping up with the pace of innovation; we are setting the pace.</p>
 
-              <p className="py-3">      However, Saitech is more than the sum of its technological prowess. It's an inclusive and collaborative ecosystem. We understand that true innovation thrives in an environment that values diversity and fosters open communication. At Saitech, every team member is not just a professional; they are a valued contributor to our collaborative culture, where ideas flourish, creativity is nurtured, and unique perspectives are not only embraced but celebrated.</p>
+              <p className="mb-3">      However, Saitech is more than the sum of its technological prowess. It's an inclusive and collaborative ecosystem. We understand that true innovation thrives in an environment that values diversity and fosters open communication. At Saitech, every team member is not just a professional; they are a valued contributor to our collaborative culture, where ideas flourish, creativity is nurtured, and unique perspectives are not only embraced but celebrated.</p>
 
-              <p className="py-3">      As we stride confidently into the future, Saitech remains committed to being more than just a workplace. We are a platform for continuous learning and development. Whether you are a seasoned professional looking for a new challenge or a recent graduate eager to make an impact, Saitech offers a nurturing environment for career advancement, professional growth, and personal excellence. Joining Saitech means stepping into a world where your skills align with a company poised for future-focused growth.</p>
+              <p className="mb-3">      As we stride confidently into the future, Saitech remains committed to being more than just a workplace. We are a platform for continuous learning and development. Whether you are a seasoned professional looking for a new challenge or a recent graduate eager to make an impact, Saitech offers a nurturing environment for career advancement, professional growth, and personal excellence. Joining Saitech means stepping into a world where your skills align with a company poised for future-focused growth.</p>
 
-              <p className="py-3">Together, let's redefine the possibilities in fintech. Join Saitech, and be part of a team that's not just shaping the future of finance but creating a workplace where innovation, excellence, collaboration, and impactful contributions thrive.</p>
+              <p className="mb-3">Together, let's redefine the possibilities in fintech. Join Saitech, and be part of a team that's not just shaping the future of finance but creating a workplace where innovation, excellence, collaboration, and impactful contributions thrive.</p>
 
-            </body>
+            </div>
           </div>
 
         </div>
@@ -47,9 +47,3 @@ export default function Home() {
     </>
   );
 }
-
-// TODO
-// this is where we will have an about us page that discusses the company and the open job offerings
-// add a banner and sub panel for contact us type info then just like a solid block of text with all the info
-// because route is static
-// 

@@ -12,6 +12,9 @@ export default function Application() {
         <title>Application Page</title>
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center">
+        <div>
+          
+        </div>
         <div className="container flex flex-col gap-12 px-4 py-16 ">
           <p>First Name: <input type="text"/> </p>
           <p>Middle Name: <input type="text"/> </p>

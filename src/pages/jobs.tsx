@@ -24,7 +24,7 @@ export default function Jobs() {
                   height={600}
                 />
                 <div className="flex w-1/2">
-                    <JobDescription application_name="Software Engineer" />
+                    <JobDescription application_name="Software Engineer" apply_button={true}/>
                 </div>
               </div>
             </div>
@@ -41,7 +41,7 @@ export default function Jobs() {
                   height={600}
                 />
                 <div className="flex w-1/2">
-                  <JobDescription application_name="Data Analyst" />
+                  <JobDescription application_name="Data Analyst" apply_button={true}/>
                 </div>
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Jobs() {
                   height={600}
                 />
                 <div className="flex w-1/2">
-                <JobDescription application_name="Data Scientist" />
+                <JobDescription application_name="Data Scientist" apply_button={true}/>
 
                 </div>
               </div>

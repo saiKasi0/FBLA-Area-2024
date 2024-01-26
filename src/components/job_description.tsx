@@ -8,18 +8,26 @@ function array_to_li(arr:string[]){
     return <ul className="list-disc list-inside">{list_items}</ul>
 }
 
+function show_apply_button(show:boolean){
+    if(show){
+        return (<button type="button" className="text-white bg-stone-900 hover:bg-stone-950 font-medium rounded-lg text-sm px-3 py-2 text-center dark:bg-stone-700 dark:hover:bg-stone-800">Apply</button>);
+    }
+}
+
 const applications = job_openings.applications;
 
-export const JobDescription = (props:{application_name:string}) => {
+export const JobDescription = (props:{application_name:string, apply_button:boolean}) => {
     let application_info = applications.get(props.application_name)!
     return (
         <div>
             <div>
             <h1 className="flex justify-start items-center text-2xl font-semibold mb-2">
                 <div className="mr-3">
-                {application_info.title} 
+                    {application_info.title} 
                 </div>
-                <button type="button" className="text-white bg-stone-900 hover:bg-stone-950 font-medium rounded-lg text-sm px-3 py-2 text-center dark:bg-stone-700 dark:hover:bg-stone-800">Apply</button>
+                <div>
+                    {show_apply_button(props.apply_button)}
+                </div>
             </h1>
             <h2 className="font-semibold mb-1">Responsibilities:</h2>
             {array_to_li(application_info.responsibilities)}

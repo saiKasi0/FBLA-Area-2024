@@ -10,11 +10,17 @@ datasource db {
     url      = env("DATABASE_URL")
 }
 
-model Post {
-    id        Int      @id @default(autoincrement())
-    name      String
+model Application {
+    id          Int      @id @default(autoincrement())
+    firstName   String
+    middleName  String
+    lastName    String
+    email       String
+    resumeLink  String
+    
+
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
 
-    @@index([name])
+    @@index([email])
 }

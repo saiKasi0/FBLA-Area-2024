@@ -37,13 +37,16 @@ export default function Application() {
 
        <div className="container flex flex-col gap-12 px-4 py-16 ">
          <div>
-            <select value={application_name} onChange={(choice) => handleChange(choice)}>{openings}</select>
-            <JobDescription application_name={application_name} apply_button={false} />
+          <JobDescription application_name={application_name} apply_button={false} />
+            <div className="mt-2">
+              Select: <select className="bg-stone-200" value={application_name} onChange={(choice) => handleChange(choice)}>{openings}</select>
+            </div>
          </div>
-         {/* FIXME inputs and style the things also do backend*/}
-         <p>First Name: <input className="bg-white border-black" type="text"/> </p>
-         <p>Middle Name: <input type="text"/> </p>
-         <p>Last Name: <input type="text"/> </p>
+         {/* FIXME inputs and style the things also 
+         TODO backend*, link apply on jobs to appropriate page*/}
+         <p>First Name: <input className="border-black border" type="text"/> </p>
+         <p>Middle Name: <input className="border-black border" type="text"/> </p>
+         <p>Last Name: <input className="border-black border" type="text"/> </p>
          <div>
            <div> 
               <div className="flex items-center justify-center w-full">
@@ -56,7 +59,7 @@ export default function Application() {
                           <p className="text-xs text-gray-500 dark:text-gray-400"> PNG, DOC or DOCX</p>
                       </div>
                       <input id="dropzone-file" type="file" className="hidden" />
-                      
+
                   </label>
               </div> 
            </div>

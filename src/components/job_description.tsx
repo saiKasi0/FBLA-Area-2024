@@ -11,10 +11,10 @@ function array_to_li(arr:string[]){
 const applications = job_openings.applications;
 
 export const JobDescription = (props:{application_name:string}) => {
-    let application_info = applications.get(props.application_name)
+    let application_info = applications.get(props.application_name)!
     return (
         <div>
-            <div className="">
+            <div>
             <h1 className="flex justify-start items-center text-2xl font-semibold mb-2">
                 <div className="mr-3">
                 {application_info.title} 

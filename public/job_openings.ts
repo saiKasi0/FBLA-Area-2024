@@ -60,9 +60,9 @@ const data_scientist_application = {
     ],
     end_statement: "If you are passionate about leveraging advanced analytics and machine learning to drive innovation, we encourage you to submit your resume and a cover letter outlining your relevant experience and achievements.",
 }
-const applications = new Map();
-applications.set("software_engineer_application", software_engineer_application)
-applications.set("data_analyst_application", data_analyst_application)
-applications.set("data_scientist_application", data_scientist_application)
+const applications:Map<string, typeof software_engineer_application> = new Map();
+applications.set("Software Engineer", software_engineer_application)
+applications.set("Data Analyst", data_analyst_application)
+applications.set("Data Scientist", data_scientist_application)
 
 export default {applications};

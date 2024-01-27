@@ -17,7 +17,6 @@ model Application {
     lastName    String
     email       String
     resumeLink  String
-    
 
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt

@@ -20,7 +20,6 @@ function array_to_li(arr: string[]): React.JSX.Element {
  */
 export const JobDescription = (props: { application_name: string}) => {
     // Retrieve application information based on the application name.
-    console.log(props.application_name + " this is form Job Descriptions")
     let application_info = job_openings.applications.get(props.application_name)!;
 
     return (

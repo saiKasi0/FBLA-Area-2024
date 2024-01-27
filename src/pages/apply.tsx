@@ -42,14 +42,12 @@ export default function Application() {
   // Handle changes in input fields
   const handleChangeHTML = (e: ChangeEvent<HTMLInputElement>, set_func: Dispatch<SetStateAction<string>>) => {
     set_func(e.target.value);
-    console.log(e.target.value + "this is from job apps page")
   };
 
   // Handle file input change
   const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
       set_app_file_ref(URL.createObjectURL(e.target.files[0]));
-      console.log(app_file_ref);
     }
   };
 

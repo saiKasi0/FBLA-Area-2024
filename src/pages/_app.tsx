@@ -89,7 +89,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
 
         {/* Footer section */}
         <footer className="flex footer footer-center p-4 bg-base-300 bg-stone-700 text-white text-base-content">
-          <p className="flex justify-center">Copyright © 2024 - All rights reserved by Saivest</p>
+          <p className="flex justify-center">Copyright © 2024 - All rights reserved by Saitech</p>
         </footer>
       </ClerkProvider>
     </>

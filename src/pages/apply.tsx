@@ -20,28 +20,29 @@ export default function Application() {
 
   // Populate the openings dropdown with job positions
   applications.forEach((value: any, key: string) => {
-    openings.push(<option key={key} value={value}>{key}</option>);
+    openings.push(<option key={key} value={key}>{key}</option>);
   });
 
-  // Initial state for the selected application name
-  const getInitialState = () => {
-    const value = "Data Analyst";
-    return value;
-  };
+
 
   const application = api.application.create.useMutation();
   const { user } = useUser();
 
   // State variables for form inputs
-  const [application_name, set_application_name] = useState(getInitialState);
+  const [app_name, set_application_name] = useState("Software Engineer");
   const [first_name, set_first_name] = useState("");
   const [middle_name, set_middle_name] = useState("");
   const [last_name, set_last_name] = useState("");
   const [app_file_ref, set_app_file_ref] = useState("");
 
+  const handleChangeSelect = (e:ChangeEvent<HTMLSelectElement>) => {
+    set_application_name(e.target.value)
+  }
+
   // Handle changes in input fields
-  const handleChangeHTML = (e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLSelectElement>, set_func: Dispatch<SetStateAction<string>>) => {
+  const handleChangeHTML = (e: ChangeEvent<HTMLInputElement>, set_func: Dispatch<SetStateAction<string>>) => {
     set_func(e.target.value);
+    console.log(e.target.value + "this is from job apps page")
   };
 
   // Handle file input change
@@ -84,10 +85,11 @@ export default function Application() {
           <Toaster position="top-right" />
           <div>
             {/* Display the selected job description */}
-            <JobDescription application_name={application_name} apply_button={false} />
+          
+            <JobDescription application_name={app_name}/>
             <div className="mt-2">
               {/* Dropdown to select job position */}
-              Select: <select className="bg-stone-200" value={application_name} onChange={(choice) => handleChangeHTML(choice, set_application_name)}>{openings}</select>
+              Select: <select className="bg-stone-200" value={app_name} onChange={(choice) => handleChangeSelect(choice)}>{openings}</select>
             </div>
           </div>
           {/* Input fields for applicant information */}

@@ -18,8 +18,9 @@ function array_to_li(arr: string[]): React.JSX.Element {
  * @param props - React component props containing the application name and apply button status.
  * @returns JSX element representing the job description.
  */
-export const JobDescription = (props: { application_name: string, apply_button: boolean }) => {
+export const JobDescription = (props: { application_name: string}) => {
     // Retrieve application information based on the application name.
+    console.log(props.application_name + " this is form Job Descriptions")
     let application_info = job_openings.applications.get(props.application_name)!;
 
     return (

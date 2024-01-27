@@ -34,7 +34,7 @@ export default function Jobs() {
                 />
                 {/* Job description for Software Engineer */}
                 <div className="flex w-1/2">
-                  <JobDescription application_name="Software Engineer" apply_button={true}/>
+                  <JobDescription application_name="Software Engineer"/>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ export default function Jobs() {
                 />
                 {/* Job description for Data Analyst */}
                 <div className="flex w-1/2">
-                  <JobDescription application_name="Data Analyst" apply_button={true}/>
+                  <JobDescription application_name="Data Analyst"/>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@ export default function Jobs() {
                 />
                 {/* Job description for Data Scientist */}
                 <div className="flex w-1/2">
-                  <JobDescription application_name="Data Scientist" apply_button={true}/>
+                  <JobDescription application_name="Data Scientist"/>
                 </div>
               </div>
             </div>

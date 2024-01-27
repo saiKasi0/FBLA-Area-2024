@@ -48,7 +48,6 @@ const MyApp: AppType = ({ Component, pageProps }) => {
         </div>
         <Component {...pageProps} />
         <footer className="flex footer footer-center p-4 bg-base-300 bg-stone-700 text-white text-base-content">
-
             <p className="flex justify-center">Copyright © 2024 - All right reserved by Saivest</p>
         </footer>
       </ClerkProvider>
@@ -59,6 +58,3 @@ const MyApp: AppType = ({ Component, pageProps }) => {
 };
 
 export default api.withTRPC(MyApp);
-
-// add bottom bar (navbar but on bottom)
-// make sure can also go to to /apply from /openings

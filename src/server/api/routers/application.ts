@@ -1,16 +1,17 @@
 import { z } from "zod";
+import { clerkClient } from '@clerk/nextjs/server';
+
 
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
-import { db } from "~/server/db";
 
 export const applicationRouter = createTRPCRouter({
-  hello: publicProcedure
-    .input(z.object({ text: z.string() }))
-    .query(({ input }) => {
-      return {
-        greeting: `Hello ${input.text}`,
-      };
-    }),
+	userExists: publicProcedure
+	.input(z.object({username: z.string()}))
+	.query(async ({ input }) => {
+
+		const [user] = await clerkClient.users.getUserList({username: [input.username],});
+    return (await clerkClient.users.getUserList()).toString().includes(input.username);
+	}),
 
   create: publicProcedure
     .input(z.object({ firstName: z.string(), middleName: z.string(), lastName: z.string(), email: z.string(), resumeLink: z.string() }))
